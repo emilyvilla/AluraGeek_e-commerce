@@ -1,0 +1,14 @@
+.not-found img {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.not-found h3 {
+	color: blue;
+	text-align: center;
+	font-size: 1.8rem;
+}
+
+

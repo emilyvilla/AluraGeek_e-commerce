@@ -1,0 +1,106 @@
+ .productos {
+ 	display: flex;
+ 	align-items: center;
+ 	flex-direction: column;
+ 	overflow: hidden;
+ }
+
+ .container__productos-sect {
+ 	display: flex;
+ 	flex-direction: column;
+ 	align-items: center;
+ 	padding: 4.4rem 0;
+ }
+
+ .container__productos-int {
+ 	display: flex;
+ 	justify-content: space-between;
+ 	align-items: center;
+ 	width: 93%;
+ 	padding: 0 1.5rem;
+ }
+
+ .container__productos-titulo {
+ 	color: var(--color-secundario-dos, #464646);
+ 	font-family: Raleway;
+ 	font-size: 32px;
+ 	font-style: normal;
+ 	font-weight: 700;
+ 	line-height: normal;
+ }
+
+ .container__productos-link {
+ 	display: flex;
+ 	align-items: center;
+ 	gap: 8px;
+ }
+
+ .container__productos-link h4 {
+ 	display: flex;
+ 	color: var(--azul-100, #2a7ae4);
+ 	font-family: "Raleway", sans-serif;
+ 	font-size: 1.6rem;
+ 	font-style: normal;
+ 	font-weight: 700;
+ 	line-height: normal;
+ }
+
+ .container__productos-link .container__productos-icono {
+ 	background-image: url("../../svg/arrow.svg");
+ 	background-repeat: no-repeat;
+ 	width: 24px;
+ 	height: 24px;
+ }
+
+ .container__productos-cards {
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	align-items: flex-start;
+ 	justify-content: center;
+ 	width: 97vw;
+ 	overflow: hidden;
+ 	gap: 2rem;
+ 	padding: 0.5rem;
+ }
+
+ .productos__contenedor_ .card {
+ 	width: 25rem;
+ 	height: 35rem;
+ 	backdrop-filter: blur(5px);
+ 	background-color: rgba(255, 255, 255, 1);
+ 	border-radius: 26px;
+ 	overflow: hidden;
+ }
+
+ .productos__contenedor_ .card .card__imagen img {
+ 	position: absolute;
+ 	top: 40%;
+ 	left: 50%;
+ 	transform: translateX(-50%) translateY(-88%);
+ 	width: 20rem;
+ 	min-width: 10rem;
+ 	max-width: 30%;
+ }
+
+ .productos__contenedor_ .card .contentBx {
+ 	position: absolute;
+ 	bottom: 61px;
+ 	width: 100%;
+ 	height: 120px;
+ 	text-align: center;
+ }
+
+ .productos__contenedor_ .card .contentBx a {
+ 	display: inline-block;
+ 	padding: 10px 20px;
+ 	backdrop-filter: blur(5px);
+ 	background-color: #2a7ae4;
+ 	;
+ 	border-radius: 38px;
+ 	box-shadow: 35px 35px 68px 0px rgba(215, 215, 215, 0.799), inset -8px -8px 16px 0px rgba(215, 215, 215, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+ 	margin-top: 10px;
+ 	border: 1px solid rgba(0, 0, 0, 0.119);
+ 	text-decoration: none;
+ 	font-weight: 800;
+ 	color: #111;
+ }

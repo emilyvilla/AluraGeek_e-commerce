@@ -1,0 +1,203 @@
+.options_ {
+    display: flex;
+    height: 70rem;
+    padding: 49px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.container__banner-uno {
+    display: flex;
+    width: 90%;
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.container__banner-uno h1 {
+    color: var(--preto-branco, #FFF);
+    font-family: Raleway;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.container__banner-uno h2 {
+    color: var(--preto-branco, #FFF);
+    font-family: Raleway;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.options___boton {
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: var(--azul-100, #2A7AE4);
+    color: var(--color-blanco);
+    border: none;
+}
+
+.banner_span-uno {
+    background: linear-gradient(58deg, rgba(0, 0, 0, 0.781) 10%, rgba(0, 0, 0, 0.792) 17%, rgba(0, 0, 0, 0.542) 60%),
+        url("../img/banner.webp");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner_span-dos {
+    background: linear-gradient(58deg, rgba(0, 0, 0, 0.806) 10%, rgba(0, 0, 0, 0.792) 17%, rgba(0, 0, 0, 0.436) 50%),
+        url("https://a-static.besthdwallpaper.com/fading-stormtrooper-wallpaper-2560x960-17599_87.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner_span-tres {
+    background: linear-gradient(58deg, rgba(0, 0, 0, 0.814) 10%, rgba(0, 0, 0, 0.792) 17%, rgba(0, 0, 0, 0.421) 60%),
+        url("../img/banner.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner_span-cuatro {
+    background: linear-gradient(58deg, rgba(0, 0, 0, 0.781) 10%, rgba(0, 0, 0, 0.792) 17%, rgba(0, 0, 0, 0.514) 60%),
+        url("https://i0.wp.com/news.xbox.com/en-us/wp-content/uploads/sites/2/2023/05/ROG-Ally-Hero-Mockup-3fdfbfd07fec1fd901fa.jpg?fit=1920%2C1080&ssl=1");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container__banner-dos {
+    width: calc(200px + 2.4em);
+    right: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 1.2em;
+    position: absolute;
+    margin-top: 0.5rem;
+    right: 1em
+}
+
+.container__banner-nav {
+    background: #FFFFFF;
+    height: 5px;
+    width: 60px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: .3s ease-in-out
+}
+
+.container__banner-nav--select {
+    background: var(--azul-100);
+}
+
+@media screen and (max-width:1024px) {
+    .options_ {
+        display: flex;
+        height: 453px;
+        padding: 32px;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .container__banner-uno h1 {
+        font-size: 52px;
+        line-height: normal;
+    }
+
+    .container__banner-uno h2 {
+        font-size: 22px;
+    }
+
+    .options___btn__link {
+        padding: 12px 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .banner__ofertas {
+        font-size: 1.2rem;
+    }
+
+    .container__banner-dos {
+        width: calc(200px + 2.4em);
+        transform: translate(-50%, -50%);
+        display: flex;
+        gap: 1.2em;
+        position: absolute;
+        bottom: 42em;
+        right: 25em;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .options_ {
+        display: flex;
+        height: 59rem;
+        gap: unset;
+    }
+
+    .container__banner-uno {
+        justify-content: flex-end;
+        align-self: stretch;
+    }
+
+    .container__banner-uno h1 {
+        font-size: 2.2rem;
+        margin: 3px 0;
+    }
+
+    .container__banner-uno h2 {
+        font-size: 1.4rem;
+    }
+
+    .options___boton {
+        padding: 1.2rem 1.6rem;
+        gap: 1rem;
+    }
+
+    .container__banner-dos {
+        width: calc(140px + 2.4em);
+        transform: none;
+        left: auto;
+        top: 92%;
+    }
+
+    .container__banner-nav {
+        height: 3px;
+        width: 35px;
+    }
+
+    .container__banner,
+    .container__banner-dos,
+    .banner_container__banner-tres,
+    .banner_container__banner-tres {
+        background-size: cover;
+        background-position: bottom center;
+    }
+
+    .container__banner-dos {
+        width: calc(140px + 2.4em);
+        transform: none;
+        left: auto;
+        top: 55rem;
+        right: 2em;
+    }
+}
